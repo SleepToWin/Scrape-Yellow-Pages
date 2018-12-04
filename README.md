@@ -1,2 +1,2 @@
 # Scrape-Yellow-Pages
-A simple web scraper for yellowpages.com
+A web scraper for yellowpages.com.
