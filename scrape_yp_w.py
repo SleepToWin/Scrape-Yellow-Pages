@@ -29,7 +29,7 @@ for page in range(pages):
     r = requests.get(next_page)
 	
     # create the beautiful soup content
-    soup = BeautifulSoup(r.content, 'html.parser')
+    soup = BeautifulSoup(r.content, 'lxml')
 
     # find all the div tags with class "info" and put them in data
     data = soup.find_all('div', {'class': 'info'})
